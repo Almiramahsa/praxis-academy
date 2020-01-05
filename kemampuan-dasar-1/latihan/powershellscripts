@@ -1,1 +1,203 @@
 
+Powershell
+
+Almira Mahsa
+----
+
+1. Get-ChildItem
+
+PS C:\Users\hp> Get-ChildItem
+
+
+    Directory: C:\Users\hp
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        8/16/2019   7:22 PM                .anaconda
+d-----         1/2/2020   8:54 PM                .android
+d-----        9/28/2019  10:53 AM                .AndroidStudio3.5
+d-----        9/27/2019   3:47 PM                .conda
+d-----        11/8/2019   5:10 PM                .config
+d-----       12/28/2019   7:43 AM                .docker
+d-----        9/29/2019   6:38 PM                .gradle
+d-----       11/27/2019  10:47 PM                .idl
+d-----        7/28/2019   9:53 PM                .idlerc
+d-----        9/23/2019   9:09 PM                .ipynb_checkpoints
+d-----        8/16/2019   7:27 PM                .ipython
+d-----        9/15/2019  10:41 PM                .jupyter
+d-----         9/9/2019  11:08 AM                .keras
+d-----       12/11/2019  10:21 AM                .matplotlib
+d-----        8/26/2019   7:29 PM                .spyder-py3
+d-----        11/1/2019   4:01 PM                .thumbnails
+d-----       12/28/2019   9:55 AM                .vscode
+d-r---       11/14/2019   3:25 PM                3D Objects
+d-----        9/27/2019  11:22 AM                Anaconda3
+d-----       12/22/2019   8:56 PM                AndroidStudioProjects
+d-----        7/28/2019  10:24 PM                ansel
+d-r---       11/14/2019   3:25 PM                Contacts
+d-r---         1/4/2020   2:04 PM                Creative Cloud Files
+d-r---       12/31/2019  11:42 AM                Desktop
+d-r---       12/11/2019   6:17 PM                Documents
+d-r---       12/28/2019   1:35 PM                Downloads
+d-----        9/13/2019  11:21 AM                FaceRecognition
+d-r---       11/14/2019   3:25 PM                Favorites
+d-----        11/8/2019  11:16 PM                hello-world
+d-r---       11/14/2019   3:25 PM                Links
+d-----        9/14/2019   1:20 PM                models
+d-r---       11/14/2019   3:25 PM                Music
+d-----       10/14/2019  10:05 AM                MyFirstGame
+dar--l       11/25/2019   7:07 PM                OneDrive
+d-----        9/27/2019   2:03 PM                OpenCV
+d-----         9/9/2019   1:21 PM                PetImages
+d-r---       11/14/2019   3:25 PM                Pictures
+d-----        9/15/2019  11:27 PM                PycharmProjects
+d-r---       11/14/2019   3:25 PM                Saved Games
+d-r---       11/14/2019   3:25 PM                Searches
+d-----        11/8/2019   5:22 PM                source
+d-----        9/14/2019   1:34 PM                translate
+d-r---       11/14/2019   3:25 PM                Videos
+d-----        11/8/2019  11:13 PM                vuelogo
+d-----        11/8/2019   9:53 PM                vuelogos
+d-----       12/28/2019  10:39 AM                wpu-test-repo
+-a----         1/5/2020  10:36 PM           2213 .bash_history
+-a----        9/27/2019  10:09 AM             60 .condarc
+-a----       12/27/2019   8:33 PM           1038 .csslintrc
+-a----        7/30/2019  10:30 PM             16 .emulator_console_auth_token
+-a----       12/28/2019  10:37 AM            136 .gitconfig
+-a----        11/8/2019  10:04 PM             26 .node_repl_history
+-a----         9/9/2019  10:15 AM            105 .python_history
+-a----        11/8/2019   5:34 PM             31 .vuerc
+-a----        9/13/2019  12:16 PM          65748 anjing kucing.ipynb
+-a----       12/27/2019   8:33 PM           2868 coffeelint.json
+-a----       12/27/2019  12:43 PM         273773 composer-setup.php
+-a----       12/27/2019  12:43 PM        1933813 composer.phar
+-a----         9/9/2019  12:39 PM        1457728 epic_num_reader.model
+-a----        9/27/2019   2:51 PM           5728 face detect.ipynb
+-a----        9/27/2019   2:48 PM        5238377 face-trainner.yml
+-a----        9/27/2019   2:49 PM          21641 Faces-train.ipynb
+-a----        9/16/2019  12:48 AM            592 faces_train.ipynb
+-a----        8/19/2019   3:31 PM        1775411 get-pip.py
+-a----        9/27/2019  12:21 PM              6 labels.pickle
+-a----        8/29/2019   8:03 PM          11357 LICENSE
+-a----        9/27/2019   1:59 PM          18853 my-image.jpg
+-ar---        9/27/2019   1:27 PM         121908 my-image.png
+-a----         9/9/2019   1:18 PM          25157 number.ipynb
+-a----         9/9/2019  12:43 PM        1457752 num_reader
+-a----         9/9/2019  12:41 PM        1457752 num_reader.model
+-a----        8/16/2019   9:26 PM            201 python3.sublime-build
+-a----        8/29/2019   8:03 PM          39445 README.md
+-a----        8/16/2019   7:28 PM            818 Untitled.ipynb
+-a----        9/15/2019  11:09 PM              0 untitled.txt
+-a----         9/9/2019  10:31 AM           1779 Untitled1.ipynb
+-a----         9/9/2019  10:56 AM           2859 Untitled2.ipynb
+-a----         9/9/2019  11:11 AM           6665 Untitled3.ipynb
+-a----        9/15/2019  11:10 PM           3424 Untitled4.ipynb
+-a----         9/9/2019   3:02 PM            863 Untitled5.ipynb
+-a----        9/15/2019  11:18 PM            555 Untitled6.ipynb
+-a----        9/16/2019  12:04 AM           1084 Untitled7.ipynb
+-a----        9/16/2019  12:36 AM           4733 Untitled8.ipynb
+-a----         1/5/2020   5:20 PM              0 where
+
+2. Get-Content
+PS C:\Users\hp> Get-Content C:\Users\hp\coba.txt
+bla bla bla
+
+3. Get-Date
+PS C:\Users\hp> Get-Date
+
+Sunday, January 5, 2020 11:42:24 PM
+
+4. Get-Command 
+PS C:\Users\hp>  Get-Command *process*
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        Get-AppvVirtualProcess                             1.0.0.0    AppvClient
+Function        Start-AppvVirtualProcess                           1.0.0.0    AppvClient
+Cmdlet          ConvertTo-ProcessMitigationPolicy                  1.0.11     ProcessMitigations
+Cmdlet          Debug-Process                                      3.1.0.0    Microsoft.PowerShell.Management
+Cmdlet          Enter-PSHostProcess                                3.0.0.0    Microsoft.PowerShell.Core
+Cmdlet          Exit-PSHostProcess                                 3.0.0.0    Microsoft.PowerShell.Core
+Cmdlet          Get-ComputeProcess                                 1.0.0.0    HostComputeService
+Cmdlet          Get-Process                                        3.1.0.0    Microsoft.PowerShell.Management
+Cmdlet          Get-ProcessMitigation                              1.0.11     ProcessMitigations
+Cmdlet          Get-PSHostProcessInfo                              3.0.0.0    Microsoft.PowerShell.Core
+Cmdlet          Get-VMProcessor                                    2.0.0.0    Hyper-V
+Cmdlet          Set-ProcessMitigation                              1.0.11     ProcessMitigations
+Cmdlet          Set-VMProcessor                                    2.0.0.0    Hyper-V
+Cmdlet          Start-Process                                      3.1.0.0    Microsoft.PowerShell.Management
+Cmdlet          Stop-ComputeProcess                                1.0.0.0    HostComputeService
+Cmdlet          Stop-Process                                       3.1.0.0    Microsoft.PowerShell.Management
+Cmdlet          Wait-Process                                       3.1.0.0    Microsoft.PowerShell.Management
+Application     qprocess.exe                                       10.0.17... C:\Windows\system32\qprocess.exe
+
+5. Get-Member
+
+PS C:\Users\hp> Get-Date | Get-Member
+
+
+   TypeName: System.DateTime
+
+Name                 MemberType     Definition
+----                 ----------     ----------
+Add                  Method         datetime Add(timespan value)
+AddDays              Method         datetime AddDays(double value)
+AddHours             Method         datetime AddHours(double value)
+AddMilliseconds      Method         datetime AddMilliseconds(double value)
+AddMinutes           Method         datetime AddMinutes(double value)
+AddMonths            Method         datetime AddMonths(int months)
+AddSeconds           Method         datetime AddSeconds(double value)
+AddTicks             Method         datetime AddTicks(long value)
+AddYears             Method         datetime AddYears(int value)
+CompareTo            Method         int CompareTo(System.Object value), int CompareTo(datetime value), int IComparab...
+Equals               Method         bool Equals(System.Object value), bool Equals(datetime value), bool IEquatable[d...
+GetDateTimeFormats   Method         string[] GetDateTimeFormats(), string[] GetDateTimeFormats(System.IFormatProvide...
+GetHashCode          Method         int GetHashCode()
+GetObjectData        Method         void ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo ...
+GetType              Method         type GetType()
+GetTypeCode          Method         System.TypeCode GetTypeCode(), System.TypeCode IConvertible.GetTypeCode()
+IsDaylightSavingTime Method         bool IsDaylightSavingTime()
+Subtract             Method         timespan Subtract(datetime value), datetime Subtract(timespan value)
+ToBinary             Method         long ToBinary()
+ToBoolean            Method         bool IConvertible.ToBoolean(System.IFormatProvider provider)
+ToByte               Method         byte IConvertible.ToByte(System.IFormatProvider provider)
+ToChar               Method         char IConvertible.ToChar(System.IFormatProvider provider)
+ToDateTime           Method         datetime IConvertible.ToDateTime(System.IFormatProvider provider)
+ToDecimal            Method         decimal IConvertible.ToDecimal(System.IFormatProvider provider)
+ToDouble             Method         double IConvertible.ToDouble(System.IFormatProvider provider)
+ToFileTime           Method         long ToFileTime()
+ToFileTimeUtc        Method         long ToFileTimeUtc()
+ToInt16              Method         int16 IConvertible.ToInt16(System.IFormatProvider provider)
+ToInt32              Method         int IConvertible.ToInt32(System.IFormatProvider provider)
+ToInt64              Method         long IConvertible.ToInt64(System.IFormatProvider provider)
+ToLocalTime          Method         datetime ToLocalTime()
+ToLongDateString     Method         string ToLongDateString()
+ToLongTimeString     Method         string ToLongTimeString()
+ToOADate             Method         double ToOADate()
+ToSByte              Method         sbyte IConvertible.ToSByte(System.IFormatProvider provider)
+ToShortDateString    Method         string ToShortDateString()
+ToShortTimeString    Method         string ToShortTimeString()
+ToSingle             Method         float IConvertible.ToSingle(System.IFormatProvider provider)
+ToString             Method         string ToString(), string ToString(string format), string ToString(System.IForma...
+ToType               Method         System.Object IConvertible.ToType(type conversionType, System.IFormatProvider pr...
+ToUInt16             Method         uint16 IConvertible.ToUInt16(System.IFormatProvider provider)
+ToUInt32             Method         uint32 IConvertible.ToUInt32(System.IFormatProvider provider)
+ToUInt64             Method         uint64 IConvertible.ToUInt64(System.IFormatProvider provider)
+ToUniversalTime      Method         datetime ToUniversalTime()
+DisplayHint          NoteProperty   DisplayHintType DisplayHint=DateTime
+Date                 Property       datetime Date {get;}
+Day                  Property       int Day {get;}
+DayOfWeek            Property       System.DayOfWeek DayOfWeek {get;}
+DayOfYear            Property       int DayOfYear {get;}
+Hour                 Property       int Hour {get;}
+Kind                 Property       System.DateTimeKind Kind {get;}
+Millisecond          Property       int Millisecond {get;}
+Minute               Property       int Minute {get;}
+Month                Property       int Month {get;}
+Second               Property       int Second {get;}
+Ticks                Property       long Ticks {get;}
+TimeOfDay            Property       timespan TimeOfDay {get;}
+Year                 Property       int Year {get;}
+DateTime             ScriptProperty System.Object DateTime {get=if ((& { Set-StrictMode -Version 1; $this.DisplayHin...
+
