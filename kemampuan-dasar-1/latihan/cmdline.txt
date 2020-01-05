@@ -1,1 +1,465 @@
+Tugas CMD 
+Almira Mahsa
+---------------------
 
+Basic direktori:
+C:\Users\hp>date
+
+1. Date (Untuk menampilkan tanggal/bulan/tahun)
+C:\Users\hp>date
+The current date is: Sun 01/05/2020
+
+2. Time (Untuk menampilkan waktu)
+C:\Users\hp>time
+The current time is: 16:58:48.65
+
+3. Calc (Untuk menampilkan Calculator)
+C:\Users\hp>calc
+
+4. Help (Untuk menampilkan list HELP)
+C:\Users\hp>help
+For more information on a specific command, type HELP command-name
+ASSOC          Displays or modifies file extension associations.
+ATTRIB         Displays or changes file attributes.
+BREAK          Sets or clears extended CTRL+C checking.
+BCDEDIT        Sets properties in boot database to control boot loading.
+CACLS          Displays or modifies access control lists (ACLs) of files.
+CALL           Calls one batch program from another.
+CD             Displays the name of or changes the current directory.
+CHCP           Displays or sets the active code page number.
+CHDIR          Displays the name of or changes the current directory.
+CHKDSK         Checks a disk and displays a status report.
+CHKNTFS        Displays or modifies the checking of disk at boot time.
+CLS            Clears the screen.
+CMD            Starts a new instance of the Windows command interpreter.
+COLOR          Sets the default console foreground and background colors.
+COMP           Compares the contents of two files or sets of files.
+COMPACT        Displays or alters the compression of files on NTFS partitions.
+CONVERT        Converts FAT volumes to NTFS.  You cannot convert the
+               current drive.
+COPY           Copies one or more files to another location.
+DATE           Displays or sets the date.
+DEL            Deletes one or more files.
+DIR            Displays a list of files and subdirectories in a directory.
+DISKPART       Displays or configures Disk Partition properties.
+DOSKEY         Edits command lines, recalls Windows commands, and
+               creates macros.
+DRIVERQUERY    Displays current device driver status and properties.
+ECHO           Displays messages, or turns command echoing on or off.
+ENDLOCAL       Ends localization of environment changes in a batch file.
+ERASE          Deletes one or more files.
+EXIT           Quits the CMD.EXE program (command interpreter).
+FC             Compares two files or sets of files, and displays the
+               differences between them.
+FIND           Searches for a text string in a file or files.
+FINDSTR        Searches for strings in files.
+FOR            Runs a specified command for each file in a set of files.
+FORMAT         Formats a disk for use with Windows.
+FSUTIL         Displays or configures the file system properties.
+FTYPE          Displays or modifies file types used in file extension
+               associations.
+GOTO           Directs the Windows command interpreter to a labeled line in
+               a batch program.
+GPRESULT       Displays Group Policy information for machine or user.
+GRAFTABL       Enables Windows to display an extended character set in
+               graphics mode.
+HELP           Provides Help information for Windows commands.
+ICACLS         Display, modify, backup, or restore ACLs for files and
+               directories.
+IF             Performs conditional processing in batch programs.
+LABEL          Creates, changes, or deletes the volume label of a disk.
+MD             Creates a directory.
+MKDIR          Creates a directory.
+MKLINK         Creates Symbolic Links and Hard Links
+MODE           Configures a system device.
+MORE           Displays output one screen at a time.
+MOVE           Moves one or more files from one directory to another
+               directory.
+OPENFILES      Displays files opened by remote users for a file share.
+PATH           Displays or sets a search path for executable files.
+PAUSE          Suspends processing of a batch file and displays a message.
+POPD           Restores the previous value of the current directory saved by
+               PUSHD.
+PRINT          Prints a text file.
+PROMPT         Changes the Windows command prompt.
+PUSHD          Saves the current directory then changes it.
+RD             Removes a directory.
+RECOVER        Recovers readable information from a bad or defective disk.
+REM            Records comments (remarks) in batch files or CONFIG.SYS.
+REN            Renames a file or files.
+RENAME         Renames a file or files.
+REPLACE        Replaces files.
+RMDIR          Removes a directory.
+ROBOCOPY       Advanced utility to copy files and directory trees
+SET            Displays, sets, or removes Windows environment variables.
+SETLOCAL       Begins localization of environment changes in a batch file.
+SC             Displays or configures services (background processes).
+SCHTASKS       Schedules commands and programs to run on a computer.
+SHIFT          Shifts the position of replaceable parameters in batch files.
+SHUTDOWN       Allows proper local or remote shutdown of machine.
+SORT           Sorts input.
+START          Starts a separate window to run a specified program or command.
+SUBST          Associates a path with a drive letter.
+SYSTEMINFO     Displays machine specific properties and configuration.
+TASKLIST       Displays all currently running tasks including services.
+TASKKILL       Kill or stop a running process or application.
+TIME           Displays or sets the system time.
+TITLE          Sets the window title for a CMD.EXE session.
+TREE           Graphically displays the directory structure of a drive or
+               path.
+TYPE           Displays the contents of a text file.
+VER            Displays the Windows version.
+VERIFY         Tells Windows whether to verify that your files are written
+               correctly to a disk.
+VOL            Displays a disk volume label and serial number.
+XCOPY          Copies files and directory trees.
+WMIC           Displays WMI information inside interactive command shell.
+
+For more information on tools see the command-line reference in the online help.
+
+
+5. Taskmgr (Untuk menampilkan task manager)
+C:\Users\hp>taskmgr
+
+6. Dir (Untuk menampilkan isi folder)
+C:\Users\hp>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 08C2-7F89
+
+ Directory of C:\Users\hp
+
+12/28/2019  01:29 PM    <DIR>          .
+12/28/2019  01:29 PM    <DIR>          ..
+08/16/2019  07:22 PM    <DIR>          .anaconda
+01/02/2020  08:54 PM    <DIR>          .android
+09/28/2019  10:53 AM    <DIR>          .AndroidStudio3.5
+12/28/2019  02:39 PM             2,153 .bash_history
+09/27/2019  03:47 PM    <DIR>          .conda
+09/27/2019  10:09 AM                60 .condarc
+11/08/2019  05:10 PM    <DIR>          .config
+12/27/2019  08:33 PM             1,038 .csslintrc
+12/28/2019  07:43 AM    <DIR>          .docker
+07/30/2019  10:30 PM                16 .emulator_console_auth_token
+12/28/2019  10:37 AM               136 .gitconfig
+09/29/2019  06:38 PM    <DIR>          .gradle
+11/27/2019  10:47 PM    <DIR>          .idl
+07/28/2019  09:53 PM    <DIR>          .idlerc
+09/23/2019  09:09 PM    <DIR>          .ipynb_checkpoints
+08/16/2019  07:27 PM    <DIR>          .ipython
+09/15/2019  10:41 PM    <DIR>          .jupyter
+09/09/2019  11:08 AM    <DIR>          .keras
+12/11/2019  10:21 AM    <DIR>          .matplotlib
+11/08/2019  10:04 PM                26 .node_repl_history
+09/09/2019  10:15 AM               105 .python_history
+08/26/2019  07:29 PM    <DIR>          .spyder-py3
+11/01/2019  04:01 PM    <DIR>          .thumbnails
+12/28/2019  09:55 AM    <DIR>          .vscode
+11/08/2019  05:34 PM                31 .vuerc
+11/14/2019  03:25 PM    <DIR>          3D Objects
+09/27/2019  11:22 AM    <DIR>          Anaconda3
+12/22/2019  08:56 PM    <DIR>          AndroidStudioProjects
+09/13/2019  12:16 PM            65,748 anjing kucing.ipynb
+07/28/2019  10:24 PM    <DIR>          ansel
+12/27/2019  08:33 PM             2,868 coffeelint.json
+12/27/2019  12:43 PM           273,773 composer-setup.php
+12/27/2019  12:43 PM         1,933,813 composer.phar
+11/14/2019  03:25 PM    <DIR>          Contacts
+01/04/2020  02:04 PM    <DIR>          Creative Cloud Files
+12/31/2019  11:42 AM    <DIR>          Desktop
+12/11/2019  06:17 PM    <DIR>          Documents
+12/28/2019  01:35 PM    <DIR>          Downloads
+09/09/2019  12:39 PM         1,457,728 epic_num_reader.model
+09/27/2019  02:51 PM             5,728 face detect.ipynb
+09/27/2019  02:48 PM         5,238,377 face-trainner.yml
+09/13/2019  11:21 AM    <DIR>          FaceRecognition
+09/27/2019  02:49 PM            21,641 Faces-train.ipynb
+09/16/2019  12:48 AM               592 faces_train.ipynb
+11/14/2019  03:25 PM    <DIR>          Favorites
+08/19/2019  03:31 PM         1,775,411 get-pip.py
+11/08/2019  11:16 PM    <DIR>          hello-world
+09/27/2019  12:21 PM                 6 labels.pickle
+08/29/2019  08:03 PM            11,357 LICENSE
+11/14/2019  03:25 PM    <DIR>          Links
+09/14/2019  01:20 PM    <DIR>          models
+11/14/2019  03:25 PM    <DIR>          Music
+09/27/2019  01:59 PM            18,853 my-image.jpg
+09/27/2019  01:27 PM           121,908 my-image.png
+10/14/2019  10:05 AM    <DIR>          MyFirstGame
+09/09/2019  01:18 PM            25,157 number.ipynb
+09/09/2019  12:43 PM         1,457,752 num_reader
+09/09/2019  12:41 PM         1,457,752 num_reader.model
+11/25/2019  07:07 PM    <DIR>          OneDrive
+09/27/2019  02:03 PM    <DIR>          OpenCV
+09/09/2019  01:21 PM    <DIR>          PetImages
+11/14/2019  03:25 PM    <DIR>          Pictures
+09/15/2019  11:27 PM    <DIR>          PycharmProjects
+08/16/2019  09:26 PM               201 python3.sublime-build
+08/29/2019  08:03 PM            39,445 README.md
+11/14/2019  03:25 PM    <DIR>          Saved Games
+11/14/2019  03:25 PM    <DIR>          Searches
+11/08/2019  05:22 PM    <DIR>          source
+09/14/2019  01:34 PM    <DIR>          translate
+08/16/2019  07:28 PM               818 Untitled.ipynb
+09/15/2019  11:09 PM                 0 untitled.txt
+09/09/2019  10:31 AM             1,779 Untitled1.ipynb
+09/09/2019  10:56 AM             2,859 Untitled2.ipynb
+09/09/2019  11:11 AM             6,665 Untitled3.ipynb
+09/15/2019  11:10 PM             3,424 Untitled4.ipynb
+09/09/2019  03:02 PM               863 Untitled5.ipynb
+09/15/2019  11:18 PM               555 Untitled6.ipynb
+09/16/2019  12:04 AM             1,084 Untitled7.ipynb
+09/16/2019  12:36 AM             4,733 Untitled8.ipynb
+11/14/2019  03:25 PM    <DIR>          Videos
+11/08/2019  11:13 PM    <DIR>          vuelogo
+11/08/2019  09:53 PM    <DIR>          vuelogos
+12/28/2019  10:39 AM    <DIR>          wpu-test-repo
+              37 File(s)     13,934,455 bytes
+              48 Dir(s)   9,153,089,536 bytes free
+
+7. Echo (menampilkan pesan pada layar cmd)
+C:\Users\hp>echo
+ECHO is on.
+
+8. Ping (untuk menguji koneksi jaringan)
+C:\Users\hp>ping
+
+Usage: ping [-t] [-a] [-n count] [-l size] [-f] [-i TTL] [-v TOS]
+            [-r count] [-s count] [[-j host-list] | [-k host-list]]
+            [-w timeout] [-R] [-S srcaddr] [-c compartment] [-p]
+            [-4] [-6] target_name
+
+Options:
+    -t             Ping the specified host until stopped.
+                   To see statistics and continue - type Control-Break;
+                   To stop - type Control-C.
+    -a             Resolve addresses to hostnames.
+    -n count       Number of echo requests to send.
+    -l size        Send buffer size.
+    -f             Set Don't Fragment flag in packet (IPv4-only).
+    -i TTL         Time To Live.
+    -v TOS         Type Of Service (IPv4-only. This setting has been deprecated
+                   and has no effect on the type of service field in the IP
+                   Header).
+    -r count       Record route for count hops (IPv4-only).
+    -s count       Timestamp for count hops (IPv4-only).
+    -j host-list   Loose source route along host-list (IPv4-only).
+    -k host-list   Strict source route along host-list (IPv4-only).
+    -w timeout     Timeout in milliseconds to wait for each reply.
+    -R             Use routing header to test reverse route also (IPv6-only).
+                   Per RFC 5095 the use of this routing header has been
+                   deprecated. Some systems may drop echo requests if
+                   this header is used.
+    -S srcaddr     Source address to use.
+    -c compartment Routing compartment identifier.
+    -p             Ping a Hyper-V Network Virtualization provider address.
+    -4             Force using IPv4.
+    -6             Force using IPv6.
+
+9. IPCONFIG (Menampilkan configurasi IP)
+C:\Users\hp>ipconfig
+
+Windows IP Configuration
+
+
+Ethernet adapter Ethernet:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 11:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 12:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi 2:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::41bc:e7c7:c99d:610c%12
+   IPv4 Address. . . . . . . . . . . : 192.168.1.5
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : fe80::1%12
+                                       192.168.1.1
+
+Ethernet adapter Bluetooth Network Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Ethernet adapter vEthernet (Default Switch):
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::6c37:4b32:639c:9d7f%29
+   IPv4 Address. . . . . . . . . . . : 192.168.44.33
+   Subnet Mask . . . . . . . . . . . : 255.255.255.240
+   Default Gateway . . . . . . . . . :
+
+10. VER (menampilkan versi windows)
+C:\Users\hp>ver
+
+Microsoft Windows [Version 10.0.17763.914]
+
+11. VOL (menampilkan label disc)
+C:\Users\hp>vol
+ Volume in drive C has no label.
+ Volume Serial Number is 08C2-7F89
+
+12. Where (Untuk menampillkan lokasi file)
+C:\Users\hp>where
+The syntax of this command is:
+
+WHERE [/R dir] [/Q] [/F] [/T] pattern...
+
+Description:
+    Displays the location of files that match the search pattern.
+    By default, the search is done along the current directory and
+    in the paths specified by the PATH environment variable.
+
+Parameter List:
+    /R       Recursively searches and displays the files that match the
+             given pattern starting from the specified directory.
+
+    /Q       Returns only the exit code, without displaying the list
+             of matched files. (Quiet mode)
+
+    /F       Displays the matched filename in double quotes.
+
+    /T       Displays the file size, last modified date and time for all
+             matched files.
+
+    pattern  Specifies the search pattern for the files to match.
+             Wildcards * and ? can be used in the pattern. The
+             "$env:pattern" and "path:pattern" formats can also be
+             specified, where "env" is an environment variable and
+             the search is done in the specified paths of the "env"
+             environment variable. These formats should not be used
+             with /R. The search is also done by appending the
+             extensions of the PATHEXT variable to the pattern.
+
+     /?      Displays this help message.
+
+  NOTE: The tool returns an error level of 0 if the search is
+        successful, of 1 if the search is unsuccessful and
+        of 2 for failures or errors.
+
+Examples:
+    WHERE /?
+    WHERE myfilename1 myfile????.*
+    WHERE $windir:*.*
+    WHERE /R c:\windows *.exe *.dll *.bat
+    WHERE /Q ??.???
+    WHERE "c:\windows;c:\windows\system32:*.dll"
+    WHERE /F /T *.dll
+
+13.WHOAMI (Untuk menampilkan nama user yg digunakan)
+C:\Users\hp>whoami
+desktop-udlbhl2\hp
+
+14. PERFMON (Menampilkan kinerja Monitor)
+C:\Users\hp>perfmon
+
+15. Cls (Menghapus teks pada layar CMD)
+C:\Users\hp>cls
+
+16. Netstat (Menampilkan koneksi internet yang aktif)
+C:\Users\hp>netstat
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    127.0.0.1:5939         kubernetes:57374       ESTABLISHED
+  TCP    127.0.0.1:57374        kubernetes:5939        ESTABLISHED
+  TCP    127.0.0.1:57398        kubernetes:57399       ESTABLISHED
+  TCP    127.0.0.1:57399        kubernetes:57398       ESTABLISHED
+  TCP    127.0.0.1:58818        kubernetes:58819       ESTABLISHED
+  TCP    127.0.0.1:58819        kubernetes:58818       ESTABLISHED
+
+17. CD (untuk memindahkan direktori)
+C:\Users\hp>cd C:\
+
+C:\>
+
+18. Copy (menduplikasi file)
+Parameter :
+/d	Allows the encrypted files being copied to be saved as decrypted files at the destination.
+/v	Verifies that new files are written correctly.
+/n	Uses a short file name, if available, when copying a file with a name longer than eight characters, or with a file name extension longer than three characters.
+/y	Suppresses prompting to confirm that you want to overwrite an existing destination file.
+/-y	Prompts you to confirm that you want to overwrite an existing destination file.
+/z	Copies networked files in restartable mode.
+/a	Indicates an ASCII text file.
+/b	Indicates a binary file.
+<Source>	Required. Specifies the location from which you want to copy a file or set of files. Source can consist of a drive letter and colon, a directory name, a file name, or a combination of these.
+<Destination>	Required. Specifies the location to which you want to copy a file or set of files. Destination can consist of a drive letter and colon, a directory name, a file name, or a combination of these.
+/?	Displays help at the command prompt.
+
+contoh :
+
+C:\Users\hp>copy my-image.png image.png /a
+        1 file(s) copied.
+
+
+19.Python (Menunjukkan versi pyhton yg terinstall di laptop)
+C:\Users\hp>python
+Python 3.7.0 (v3.7.0:1bf9cc5093, Jun 27 2018, 04:59:51) [MSC v.1914 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+
+20. Attrib (Untuk menampilkan atribut dari semua file di direktori saat ini)
+C:\Users\hp>attrib
+A                    C:\Users\hp\.bash_history
+A                    C:\Users\hp\.condarc
+A                    C:\Users\hp\.csslintrc
+A                    C:\Users\hp\.emulator_console_auth_token
+A                    C:\Users\hp\.gitconfig
+A                    C:\Users\hp\.node_repl_history
+A                    C:\Users\hp\.python_history
+A                    C:\Users\hp\.vuerc
+A                    C:\Users\hp\anjing kucing.ipynb
+A                    C:\Users\hp\coffeelint.json
+A                    C:\Users\hp\composer-setup.php
+A                    C:\Users\hp\composer.phar
+A                    C:\Users\hp\epic_num_reader.model
+A                    C:\Users\hp\face detect.ipynb
+A                    C:\Users\hp\face-trainner.yml
+A                    C:\Users\hp\Faces-train.ipynb
+A                    C:\Users\hp\faces_train.ipynb
+A                    C:\Users\hp\get-pip.py
+A                    C:\Users\hp\labels.pickle
+A                    C:\Users\hp\LICENSE
+A                    C:\Users\hp\my-image.jpg
+A    R               C:\Users\hp\my-image.png
+A   H   I            C:\Users\hp\NTUSER.DAT
+A  SH                C:\Users\hp\ntuser.dat.LOG1
+A  SH                C:\Users\hp\ntuser.dat.LOG2
+A  SH                C:\Users\hp\NTUSER.DAT{1c3790b4-b8ad-11e8-aa21-e41d2d101530}.TM.blf
+A  SH                C:\Users\hp\NTUSER.DAT{1c3790b4-b8ad-11e8-aa21-e41d2d101530}.TMContainer00000000000000000001.regtrans-ms
+A  SH                C:\Users\hp\NTUSER.DAT{1c3790b4-b8ad-11e8-aa21-e41d2d101530}.TMContainer00000000000000000002.regtrans-ms
+   SH                C:\Users\hp\ntuser.ini
+A                    C:\Users\hp\number.ipynb
+A                    C:\Users\hp\num_reader
+A                    C:\Users\hp\num_reader.model
+A                    C:\Users\hp\python3.sublime-build
+A                    C:\Users\hp\README.md
+A                    C:\Users\hp\Untitled.ipynb
+A                    C:\Users\hp\untitled.txt
+A                    C:\Users\hp\Untitled1.ipynb
+A                    C:\Users\hp\Untitled2.ipynb
+A                    C:\Users\hp\Untitled3.ipynb
+A                    C:\Users\hp\Untitled4.ipynb
+A                    C:\Users\hp\Untitled5.ipynb
+A                    C:\Users\hp\Untitled6.ipynb
+A                    C:\Users\hp\Untitled7.ipynb
+A                    C:\Users\hp\Untitled8.ipynb
+A                    C:\Users\hp\where
+
+21. Exit (Keluar dari CMD)
+C:\Users\hp>exit
